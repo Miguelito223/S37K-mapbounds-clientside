@@ -95,4 +95,3 @@ local function findbounds()
 	PrintTable(S37K_mapbounds)
 end
 hook.Add("InitPostEntity","swm_findmapbounds_cl",findbounds)
-findbounds()
